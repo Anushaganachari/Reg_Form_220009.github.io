@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<HTML>
+
+	<HEAD>
+		<TITLE> Registration Page </TITLE>
+	</HEAD>
+
+	<BODY bgcolor="Lightskyblue">
+		<br><br>
+
+		<FORM>
+			<LABEL> First Name : </LABEL>
+			<INPUT type="text" name="firstname" size="25"/> <br><br>
+
+			<LABEL> Last Name : </LABEL>
+			<INPUT type="text" name="lastname" size="25"/> <br><br>
+		
+			<LABEL> Phone number: </LABEL>
+			<INPUT type="text" name="Country code" value="+91" size="2"/> <br><br>
+			<INPUT type="text" name="Phone" size="10"/> <br><br>
+			
+			<LABEL> College Name: </LABEL>
+			<INPUT type="text" name="College name" size="40"/> <br><br>
+			
+			<LABEL> Semester: </LABEL>
+			<SELECT>
+				<OPTION value="Semester">Semester</OPTION>
+				<OPTION value="Semester 1">Semester 1</OPTION>
+				<OPTION value="Semester 2">Semester 2</OPTION>
+				<OPTION value="Semester 3">Semester 3</OPTION>
+				<OPTION value="Semester 4">Semester 4</OPTION>
+				<OPTION value="Semester 5">Semester 5</OPTION>
+				<OPTION value="Semester 6">Semester 6</OPTION>
+				
+			</SELECT><br><br>
+
+			<LABEL> Subjects : </LABEL><br>
+			<TABLE border="1" bgColor="Lightskyblue">
+				<TR>
+					<TH>
+						<INPUT type ="Checkbox" name="Subjest 1" value="Java">
+					</TH>
+					
+					<TH>
+						<INPUT type ="Checkbox" name="Subjest 2" value="HTML">
+					</TH>
+		
+					<TH>
+						<INPUT type ="Checkbox" name="Subjest 3" value="c++">
+					</TH>
+				</TR>
+				
+			</TABLE><br><br>
+		
+			<INPUT type="button  value="Submit">	
+
+		</FORM>
+
+	</BODY>
+
+
+</HTML>
